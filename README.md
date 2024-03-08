@@ -19,7 +19,7 @@ This application allows users to upload sales data in CSV format and forecasts f
    python -m venv venv
    ```
 4. Activate the virtual environment:
-   - Windows: `.env\Scriptsctivate`
+   - Windows: `.venv\Scripts\activate`
    - macOS/Linux: `source venv/bin/activate`
 5. Install the required packages:
    ```
@@ -39,10 +39,6 @@ The application will start, and your web browser will open a new tab pointing to
 1. Use the file uploader to select and upload your sales data CSV file.
 2. Select a product from the dropdown menu to forecast sales.
 3. Click the "Forecast Sales" button to view the sales forecasts and corresponding visualizations.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests to contribute to this project.
 
 ## License
 
